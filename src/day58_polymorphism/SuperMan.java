@@ -11,5 +11,6 @@ public class SuperMan extends Father implements Worker {
     public double getPaid() {
         System.out.println("Superman is getting paid");
         return 8000;
+        //
     }
 }
