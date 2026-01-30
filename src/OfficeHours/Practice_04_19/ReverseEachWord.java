@@ -4,6 +4,14 @@ import day38_methods.StringUtils;
 
 public class ReverseEachWord
 {
+    /**
+        Reverse Each word
+        Given a String, reverse each individual word and print the result Hint: Use a nested loop, split
+        Input:
+        It started to snow in Chicago Output:
+        tI detrats ot wons ni ogacihC
+ */
+
         public static void main(String[] args)
         {
             System.out.println(reverseEachWord("It started to snow in Chicago"));
@@ -22,13 +30,5 @@ public class ReverseEachWord
             }
 
             return reverse.trim();
-
         }
     }
-/*
-Reverse Each word
-Given a String, reverse each individual word and print the result Hint: Use a nested loop, split
-Input:
-It started to snow in Chicago Output:
-tI detrats ot wons ni ogacihC
- */

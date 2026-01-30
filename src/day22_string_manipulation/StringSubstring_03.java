@@ -1,21 +1,23 @@
 package day22_string_manipulation;
 
-public class StringSubstring_03
-{
+public class StringSubstring_03 {
     public static void main(String[] args)
     {
-        String word="java is fun";
+
         /*
             1) word.substring(startIndex, endIndex)
          */
-        System.out.println(word.substring(0,4));
-        System.out.println(word.substring(0,7));
-        System.out.println(word.substring(5,7));
+
+        String word = "java is fun";
+        System.out.println(word.substring(0, 4));
+        System.out.println(word.substring(0, 7));
+        System.out.println(word.substring(5, 7));
         System.out.println(word.substring(8));
 
         /*
             2) substring(startIndex)- it will read from start until end
          */
+
         System.out.println(word.substring(8));
         //print is fun
         System.out.println(word.substring(5));

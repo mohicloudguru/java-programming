@@ -81,7 +81,7 @@ public class UpdatingArrayList
         System.out.println("after loop = "+myCar);
     }
 }
-/*
+/**
 what is the difference indexOf && get?
 get method takes an index and returns the element at that index
 indexOf method takes an element(object) and gives the index of it

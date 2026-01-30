@@ -6,7 +6,8 @@ public class ScannerIntro_03
 {
     public static void main(String[] args)
     {
-        Scanner input= new Scanner(System.in); // Creating a Scanner Object using a New keyboard
+        // Creating a Scanner Object using a New keyboard
+        Scanner input= new Scanner(System.in);
 
         System.out.println("Please enter your name");
         String firstName = input.next();

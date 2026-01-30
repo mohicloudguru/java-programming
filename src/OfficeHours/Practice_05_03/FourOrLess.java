@@ -6,8 +6,9 @@ import java.util.Arrays;
 public class FourOrLess
 {
     /*
-    FourorlessGivenanArrayList of Strings, go through and read only Strings that are 4 characters or less.
-    Take those Strings and put them into a different ArrayListEx:Input:
+    FourOrLess Given anArrayList of Strings, go through and read only Strings that are 4 characters or less.
+    Take those Strings and put them into a different ArrayList
+    Ex:Input:
     “apples”, “tree”, “loop, “cat”, “animal”, “shortcut”Output:[ tree, loop, cat ]
      */
 

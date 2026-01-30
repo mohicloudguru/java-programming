@@ -18,7 +18,7 @@ public class Fibonacci
 
 //        for (int i=1; i<num; i++)
 //        {
-//                sum=first+second;
+//                sum=first+second;2
 //                first=second;
 //                second=sum;
 //

@@ -26,10 +26,10 @@ public class RawArrayList
 }
 /*
 ArrayList
-
-In programming, we always deal with multiple sets of data. it could be user data like names, emails, addresses, phone numbers etc. Or it could be product data like product names, categories, statuses, prices, etc. or it could be mixed data, like user history, steps that user does, etc etc.
-
-In order to work with large amounts of data, we use DATA Structures, as you can see by name that they help programmatically structure the data so that we can easily work with data.
+In programming, we always deal with multiple sets of data. it could be user data like names, emails, addresses, phone numbers etc.
+Or it could be product data like product names, categories, statuses, prices, etc. or it could be mixed data, like user history, steps that user does, etc etc.
+In order to work with large amounts of data, we use DATA Structures,
+ as you can see by name that they help programmatically structure the data so that we can easily work with data.
 
 In java DATA STRUCTURES:
 	-> Arrays
@@ -38,11 +38,10 @@ In java DATA STRUCTURES:
 			-> List - LinkedList
 			-> Set -> HashSet
 			etc
-			Maps and other ones that help us structure the data into managable format.
+			Maps and other ones that help us structure the data into manageable format.
 	So that we can verify, store, delete , update data easy way.
 
 In general Data Structures are there so that we can work with data easily.
-
 They are like tools of a car mechanic.
 -----------------------------------------
 
@@ -56,9 +55,6 @@ IQ: Difference between Array and ArrayList?
 Array is fixed size
 ArrayList is re-sizable | dynamic size
 ---------------------------------------
-
-add new package day40_arraylist
-add new class RawArrayList
 
 ArrayList -> is a class in java. that is used to store multiple sets of data like array.
 

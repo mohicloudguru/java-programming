@@ -12,6 +12,7 @@ public class ShoppingBalanceCalculator_01
         double remainingBalance=balance-price1-price2-price3;
         //double remainingBalance=(balance-(price1+price2+price3));
         //System.out.println("Your Remaining Balance: $"+remainingBalance);
+
         System.out.println("Your initial balance: $"+balance);
         System.out.println("Your remaining balance: $"+remainingBalance);
 

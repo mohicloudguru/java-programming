@@ -32,7 +32,7 @@ public class SumOfNumber
 
 }
 
-/*
+/**
 [Sum of Numbers from String]
     Create a method that will accept a String and returns the sum of all the numbers in the String.
 

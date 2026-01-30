@@ -4,7 +4,7 @@ public class StringComparison_01
 {
     public static void main(String[] args)
     {
-        String city="New York";
+        String city = "New York";
 
         //EQUALS() method- CASE SENSITIVE COMPARISON
 
@@ -18,12 +18,9 @@ public class StringComparison_01
         System.out.println(city.equalsIgnoreCase("New york"));//true
         System.out.println(city.equalsIgnoreCase("New YORK"));//true
 
-        if (city.equalsIgnoreCase("New york"))
-        {
+        if (city.equalsIgnoreCase("New york")) {
             System.out.println("equalsIgnoreCase() true");
-        }
-        else
-        {
+        } else {
             System.out.println("equalsIgnoreCase () False");
         }
 

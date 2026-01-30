@@ -33,11 +33,9 @@ public class CountLetters
 
     }
 }
-/*
+/**
 [Count Letters]
-
 Create a method that will accept a String and print how many times each characters is found in the String
-
 Ex:
     Input:
         "apple tree"

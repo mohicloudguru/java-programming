@@ -4,9 +4,9 @@ public class Palindrome
 {
     public static void main(String[] args)
     {
+        // Q: What if your String has a million characters
         String word = "civic";
         boolean isPalindrome = true;
-        // Q: What if your String has a million characters
 
         for(int i=0; i < word.length()/2; i++) {
 

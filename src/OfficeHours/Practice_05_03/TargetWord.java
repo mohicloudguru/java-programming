@@ -5,12 +5,12 @@ import java.util.Arrays;
 
 public class TargetWord
 {
-    /*
-  TargetwordGiven an ArrayList of Strings and a target word (String)
-   print how many times the target word is in the ArrayList
-   Ex:Input:”java”, ”html”, “css”,“java”, “javascript”, “selenium”
-   Target:java
-   Output:2
+    /**
+      TargetwordGiven an ArrayList of Strings and a target word (String)
+       print how many times the target word is in the ArrayList
+       Ex:Input:”java”, ”html”, “css”,“java”, “javascript”, “selenium”
+       Target:java
+       Output:2
      */
     public static void main(String[] args)
     {

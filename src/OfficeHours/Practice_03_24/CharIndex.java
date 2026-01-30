@@ -19,7 +19,7 @@ public class CharIndex
 
         String upper =""+s.toUpperCase().charAt(0)+s.toUpperCase().charAt(3);
                     // method chaining
-                    // "" beginning we use because taking number so thats why has to concedination
+                    // "" beginning we use because taking number so that's why has to concatenation
         System.out.println(upper);
 
         System.out.println(s.indexOf('a'));// this give first a

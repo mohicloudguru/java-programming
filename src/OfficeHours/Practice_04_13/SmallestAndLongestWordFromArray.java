@@ -23,8 +23,8 @@ public class SmallestAndLongestWordFromArray
 //        String smallest = words[0]
 //        String largest = words[0];
         String [] smallAndLarge = {words[0], words[0]};
-        // 0 -> smallest
-        // 1 -> largest
+            // 0 -> smallest
+            // 1 -> largest
 
         for(String eachWord : words){
             if(eachWord.length() < smallAndLarge[0].length()){ // if(eachWord.length() < smallest.length()){
@@ -41,4 +41,4 @@ public class SmallestAndLongestWordFromArray
 
     }
 }
-// String small = "" -> small += word + " " -> split(" ")
+        // String small = "" -> small += word + " " -> split(" ")

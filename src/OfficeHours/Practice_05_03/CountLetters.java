@@ -49,7 +49,8 @@ public class CountLetters
     public static int letterInWord(String word, char target) {
         int count = 0;
         for(char each : word.toCharArray()){
-            if(each == target) count++;
+            if(each == target)
+                count++;
         }
         return count;
     }

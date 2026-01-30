@@ -26,9 +26,6 @@ public class SetExamples {
         words.add("collection");
         System.out.println(words);
 
-        for(String String : words){
-
-        }
 
         // convert your Set to a List
 
@@ -50,7 +47,7 @@ public class SetExamples {
         System.out.println(linkedHashSet);
 
         // TreeSet
-
+        System.out.println();
         Set<String> treeSet = new TreeSet<>();
         treeSet.add("24");
         treeSet.add("java");
@@ -61,7 +58,7 @@ public class SetExamples {
         treeSet.add("53");
         treeSet.add("cucumber");
         System.out.println(treeSet);
-        //((TreeSet)treeSet).first();
+        System.out.println(((TreeSet) treeSet).first());
 
 
     }

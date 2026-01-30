@@ -96,7 +96,7 @@ public class ArraysAsList
 
     }
 }
-/*
+/**
 Arrays class => is a utility class for arrays, it contains many useful methods.
 EX:
     sort, toString, equals, binarySearch
@@ -114,10 +114,10 @@ How to create and assign values to ArrayList in 1 statement.
 Now nums2 is resizable and can use any methods.
 
  */
-/*
+
+/**
 It is another way of looping Arraylist, we need to use LAMBDA EXPRESSION ( -> ) to specify action to do
 with elements in list.
-
 
 Lambda Expressions were added in Java 8. A lambda expression is a short block of code which takes in parameters and
 returns a value.

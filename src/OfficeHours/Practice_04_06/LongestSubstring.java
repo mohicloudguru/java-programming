@@ -6,11 +6,11 @@ public class LongestSubstring
     {
         String str = "abcdeea";
         String longestSubstring = "";
-        String temp = "";  //
+        String temp = "";
 
         for(int i=0; i < str.length()-1; i++) {
 
-            temp += str.charAt(i); //
+            temp += str.charAt(i);
 
             if(str.charAt(i) != str.charAt(i + 1)){
 

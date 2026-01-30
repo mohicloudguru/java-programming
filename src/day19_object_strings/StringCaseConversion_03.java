@@ -4,9 +4,8 @@ public class StringCaseConversion_03
 {
     public static void main(String[] args)
     {
-      String word="CyberTek";
-      String sentence="Java is FUN!";
-
+        String word = "CyberTek";
+        String sentence = "Java is FUN!";
 
         // toLowerCase()
         System.out.println(word.toLowerCase());
@@ -24,23 +23,23 @@ public class StringCaseConversion_03
         System.out.println(word);
 
 
-        String wordInLcase= word.toLowerCase();
+        String wordInLcase = word.toLowerCase();
         System.out.println("wordInLcase = " + wordInLcase);
 
         // change word to all lowercase letters and assign back
-        word=word.toLowerCase();
+        word = word.toLowerCase();
         System.out.println("word = " + word);
 
         String company = "Amazon";
         System.out.println(company.toLowerCase());
         System.out.println(company.toUpperCase());
-        System.out.println("Company in uppercase - "+company.toUpperCase());
+        System.out.println("Company in uppercase - " + company.toUpperCase());
         System.out.println("java".toUpperCase());
 
         //CHANGE Company "Amazon" to "AMAZON"
-        company=company.toUpperCase();
+        company = company.toUpperCase();
         System.out.println("company = " + company);
-        company= company.toLowerCase();
+        company = company.toLowerCase();
         System.out.println("company = " + company);
 
 

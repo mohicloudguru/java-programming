@@ -4,7 +4,7 @@ public class ReverseSentence_07
 {
     public static void main(String[] args)
     {
-      String sentence="java is java";
+      String sentence="java is fun";
       String sentenceArray[]=sentence.split(" ");
       String result="";
 

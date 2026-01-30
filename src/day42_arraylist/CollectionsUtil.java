@@ -55,5 +55,6 @@ public class CollectionsUtil
 
         Collections.shuffle(nums);
         System.out.println("After shuffle = "+nums);
+
     }
 }

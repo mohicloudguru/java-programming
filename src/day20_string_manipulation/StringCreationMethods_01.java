@@ -12,7 +12,7 @@ public class StringCreationMethods_01
         String word3= "";
         String word4= new String();
 
-       // if we do "java".soutv and than automatically
+
         System.out.println("\"java\" = " + "java");
 
 

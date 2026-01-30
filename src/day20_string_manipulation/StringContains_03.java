@@ -4,72 +4,54 @@ public class StringContains_03
 {
     public static void main(String[] args)
     {
-       String company="Capital One";
-       System.out.println(company.contains("i"));
-       System.out.println(company.contains("ital"));
+        String company = "Capital One";
+        System.out.println(company.contains("i"));
+        System.out.println(company.contains("ital"));
         System.out.println(company.contains("l"));
         System.out.println(company.contains("j"));
 
-        if (company.contains(" "))
-        {
+        if (company.contains(" ")) {
             System.out.println("company name with multiple words");
-        }
-        else
-        {
+        } else {
             System.out.println("single word company name");
         }
 
-        String etsyTitle="Wooden spoon | Etsy";
+        String etsyTitle = "Wooden spoon | Etsy";
 
-        if (etsyTitle.contains(" | "))
-        {
+        if (etsyTitle.contains(" | ")) {
             System.out.println("title check passed");
-        }
-        else
-        {
+        } else {
             System.out.println("title check failed");
         }
 
-        String firstName="gokay";
+        String firstName = "gokay";
 
-        if (firstName.contains("o") && firstName.contains("y"))
-        {
+        if (firstName.contains("o") && firstName.contains("y")) {
             System.out.println("both a && y present");
-        }
-        else
-        {
+        } else {
             System.out.println("a || y not present");
         }
 
-        firstName ="Nadir";
+        firstName = "Nadir";
 
-        if (firstName.contains("a") ||firstName.contains("i"))
-        {
+        if (firstName.contains("a") || firstName.contains("i")) {
             System.out.println("a || i presented");
-        }
-        else
-        {
+        } else {
             System.out.println("not presented");
         }
 
-        String email="murodil@cybertekschool.com";
+        String email = "murodil@cybertekschool.com";
 
-        if (email.contains("@") &&email.endsWith(".com"))
-        {
-            System.out.println(email+" valid email");
-        }
-        else
-        {
+        if (email.contains("@") && email.endsWith(".com")) {
+            System.out.println(email + " valid email");
+        } else {
             System.out.println("invalid email");
         }
 
         // CASE INSENSITIVE
-        if (email.toLowerCase().contains("d"))
-        {
+        if (email.toLowerCase().contains("d")) {
             System.out.println("d is present");
-        }
-        else
-        {
+        } else {
             System.out.println("d is not present");
         }
 

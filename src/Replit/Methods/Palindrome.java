@@ -14,11 +14,12 @@ public class Palindrome
         int reverseNum=0;
         int remainder=0;
         int tem=num;
+
         while(num>0)
         {
             remainder= num % 10;
-            reverseNum= remainder+ (reverseNum*10);
-            num /=10;
+            reverseNum= remainder + (reverseNum*10);
+            num /= 10;
         }
         System.out.println(tem==reverseNum);
 

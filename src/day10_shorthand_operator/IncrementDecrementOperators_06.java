@@ -2,9 +2,9 @@ package day10_shorthand_operator;
 
 public class IncrementDecrementOperators_06
 {
-    public static void main(String[]args)
+    public static void main(String[] args)
     {
-        int i=1;
+        int i = 1;
         System.out.println("i = " + i);
         i++;
         System.out.println("i = " + i);
@@ -25,20 +25,20 @@ public class IncrementDecrementOperators_06
         */
 
         // increase linesofcode by 1, 3 different ways
-        linesOfCode= linesOfCode+1;
-        linesOfCode +=1;
+        linesOfCode = linesOfCode + 1;
+        linesOfCode += 1;
         linesOfCode++;
         ++linesOfCode;
         System.out.println("linesOfCode = " + linesOfCode);
 
         // type of 4 different ways of decreasing by 1
-        linesOfCode = linesOfCode-1;
-        linesOfCode -=1;
-        linesOfCode --;
+        linesOfCode = linesOfCode - 1;
+        linesOfCode -= 1;
+        linesOfCode--;
         --linesOfCode;
         System.out.println("linesOfCode = " + linesOfCode);
 
-        char letter ='a';
+        char letter = 'a';
         System.out.println("letter = " + letter);
         letter++;
         System.out.println("letter = " + letter);
@@ -47,10 +47,10 @@ public class IncrementDecrementOperators_06
         System.out.println("letter = " + letter);
         letter--;
         System.out.println("letter = " + letter);
-        letter--;letter--;letter--;
+        letter--;
+        letter--;
+        letter--;
         System.out.println("letter = " + letter);
-
-
 
 
     }

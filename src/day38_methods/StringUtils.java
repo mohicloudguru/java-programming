@@ -38,7 +38,7 @@ public class StringUtils
 
         for (int i=0; i<str.length()/2; i++)
         {
-            if (str.charAt(i)!=str.charAt(str.length()-1-i))
+            if (str.charAt(i) != str.charAt(str.length()-1-i))
             {
                 isPalindrome=false;
                 break;
@@ -51,9 +51,9 @@ public class StringUtils
     {
        String str="";
 
-       for (int i=word.length()-1; i>=0; i--)
+       for (int i= word.length()-1; i>=0; i--)
        {
-           str +=word.charAt(i);
+           str += word.charAt(i);
        }
        return str;
     }

@@ -16,9 +16,8 @@ public class ReplacePractice_01
 
         // REPLACE SPACE WITHOUT SPACE
         String sentence="java is fun";
-        String withNoSpaces="";
         System.out.println(sentence.replace(" ",""));
-        System.out.println(withNoSpaces);
+        System.out.println("sentence = " + sentence);
 
         // CHAINING
         sentence=sentence.replace("java","selenium").

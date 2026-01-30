@@ -7,6 +7,7 @@ public class BankAccount
     int pin;
     double balance;
     long accountNumber;
+
     public double getBalance(int inputPin)
     {
         if (pin ==inputPin)

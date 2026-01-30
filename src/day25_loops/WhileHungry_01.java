@@ -1,6 +1,6 @@
 package day25_loops;
 
-public class WhileHungry_01
+public class  WhileHungry_01
 {
     public static void main(String[] args)
     {

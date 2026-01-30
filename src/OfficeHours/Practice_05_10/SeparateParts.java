@@ -1,13 +1,12 @@
 package OfficeHours.Practice_05_10;
 
-import day41_arraylist.ArraysAsList;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+
 
 public class SeparateParts
 {
-    /*
+    /**
     [Separate parts]
 
     Write a program that can extract the special characters, digits and letters from

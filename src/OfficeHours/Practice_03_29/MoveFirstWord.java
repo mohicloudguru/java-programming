@@ -11,7 +11,8 @@ public class MoveFirstWord
     }
 }
 /*
-Given a sentence. Display the sentence with the first word moved to the end of the sentence. Ex:
+Given a sentence. Display the sentence with the first word moved to the end of the sentence.
+Ex:
 input: Java is a fun language
 output: is a fun language Java
  */

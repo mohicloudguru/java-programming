@@ -13,6 +13,6 @@ public class PrimitiveCasting_05
         System.out.println(shNum);
         System.out.println(lNum1);
 
-        //TODO: Contunie more practice on Casting
+
     }
 }

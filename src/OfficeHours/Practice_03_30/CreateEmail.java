@@ -19,7 +19,9 @@ public class CreateEmail
             email += "@cybertek.com";
             System.out.println(email);
 
-        } else {
+        }
+        else
+        {
             System.out.println("Invalid data");
         }
     }
